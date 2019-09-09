@@ -1,0 +1,5 @@
+name: 'Event API Development'
+type: module
+description: 'RESTful API Functionality'
+core: 8.x
+package: 'Custom'
