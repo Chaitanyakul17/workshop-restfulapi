@@ -1,0 +1,12 @@
+name: Text Summarize
+type: module
+# core: '8.x'
+description: 'Provides the summary text for the content fields specified.'
+dependencies:
+  - intelligent_tools
+
+# Information added by Drupal.org packaging script on 2019-08-01
+version: '8.x-1.0'
+core: '8.x'
+project: 'intelligent_tools'
+datestamp: 1564654389

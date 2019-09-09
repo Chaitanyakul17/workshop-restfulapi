@@ -1,0 +1,10 @@
+## YAML Template.
+---
+event_apis.userlogin:
+  path: 'custom/userlogin'
+  defaults:
+    _controller: \Drupal\event_apis\Controller\CustomRestApiController::login
+  methods: [POST]
+  requirements:
+    _user_is_logged_in: 'FALSE'
+    _format: 'json'
